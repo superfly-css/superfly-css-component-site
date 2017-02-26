@@ -1,0 +1,29 @@
+{
+  "name": "superfly-css-component-site",
+  "version": "0.0.0",
+  "description": "Site component",
+  "main": "src/main/css/index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/superfly-css/superfly-css-component-site.git"
+  },
+  "keywords": [
+    "css",
+    "superfly-css",
+    "site",
+    "component"
+  ],
+  "author": "Ole Ersoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/superfly-css/superfly-css-component-site/issues"
+  },
+  "homepage": "https://github.com/superfly-css/superfly-css-component-site#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "superfly-css-task-build": "^0.1.7"
+  }
+}

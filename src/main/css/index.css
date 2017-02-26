@@ -1,0 +1,11 @@
+:root {
+  --Site-min-width: 270px;
+  --Site-min-height: 100%;
+  --Site-background-color: #FFFFFF;
+}
+
+.Site {
+    background-color: var(--Site-background-color);
+    min-height: var(--Site-min-height);
+    min-width: var(--Site-min-width);
+}
