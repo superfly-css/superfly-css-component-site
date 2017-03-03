@@ -16,17 +16,17 @@
 }
 
 :root {
-  --Site-header-height: 80px;
-  --Site-header-width: 100%;
-  --Site-header-background-color: transparent;
-  --Site-header-padding: 1rem 1.5rem;
+  --Site_header-height: 80px;
+  --Site_header-width: 100%;
+  --Site_header-background-color: transparent;
+  --Site_header-padding: 1rem 1.5rem;
 }
 
-.Site-header {
+.Site_header {
   display: flex;
-  height: var(--Site-header-height);
-  width: var(--Site-header-width);
-  background: var(--Site-header-background-color);
-  padding: var(--Site-header-padding);
+  height: var(--Site_header-height);
+  width: var(--Site_header-width);
+  background-color: var(--Site_header-background-color);
+  padding: var(--Site_header-padding);
   box-shadow: 0 0 0.5rem rgba(0,0,0,.1);
 }
