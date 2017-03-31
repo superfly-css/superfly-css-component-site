@@ -6,17 +6,13 @@
   --Site-min-height: 100%;
   --Site-background-color: #FFFFFF;
   --Site-margin: 0px;
-  --Site {
-      background-color: var(--Site-background-color);
-      min-height: var(--Site-min-height);
-      min-width: var(--Site-min-width);
-      margin: var(--Site-margin);
-  }
 }
 
-
 .Site {
-  @apply(--Site);
+    background-color: var(--Site-background-color);
+    min-height: var(--Site-min-height);
+    min-width: var(--Site-min-width);
+    margin: var(--Site-margin);
 }
 
 :root {
@@ -24,16 +20,13 @@
   --Site_header-width: 100%;
   --Site_header-background-color: transparent;
   --Site_header-padding: 1rem 1.5rem;
-  --Site_header {
+}
+
+.Site_header {
       display: flex;
       height: var(--Site_header-height);
       width: var(--Site_header-width);
       background-color: var(--Site_header-background-color);
       padding: var(--Site_header-padding);
       box-shadow: 0 0 0.5rem rgba(0,0,0,.1);
-  }
-}
-
-.Site_header {
-  @apply(--Site_header);
 }
